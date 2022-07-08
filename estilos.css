@@ -1,0 +1,23 @@
+#registro{
+    transition: all 1s ease-out;
+}
+
+#registro{
+    margin-top: 36px;
+    background: rgb(118, 178, 180);
+    padding-left: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 36px; 
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(111, 159, 182);
+}
+
+
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}
