@@ -1,23 +1,55 @@
-#registro{
-    transition: all 1s ease-out;
+*{
+    padding:5px ;
+    margin:3px ;
+    box-sizing: border-box ;
 }
 
-#registro{
-    margin-top: 36px;
-    background: rgb(118, 178, 180);
-    padding-left: 36px;
-    padding-top: 36px;
-    padding-bottom: 36px;
-    padding-right: 36px; 
-    border-radius: 15px;
-    box-shadow: 15px 15px 15px rgb(111, 159, 182);
+html{
+    font-size: 140%;
 }
 
-
-.ocultar {
-    display: none;
+.contenedor{
+    display: grid ;
+    grid-template-areas: "image myprofile"
+                    "socialmedia lastjob"
+                    "mystudies myskills" ;
+    grid-template-columns: 4rem 4rem;
+    background: rgb(195, 168, 216);
+    grid-template-columns: 40vw 50vw;
+    grid-template-rows: 33.33vh 33.33vh 33.33vh;
+    border: double rgb(144, 57, 202) 5px;
 }
- 
-.mostrar {
-    display: block;
+
+.item{
+    width:3rem ;
+    height:3rem ;
+    background: rgb(143, 148, 219);
+    font-size: 2.4rem ;
+    border: solid rgb(0, 0, 0) ;
+    
+}
+
+.image{
+    grid-area: image;
+    border-radius: 50%;
+}
+
+.myprofile{
+    grid-area: myprofile;
+}
+
+.socialmedia{
+    grid-area: socialmedia;
+}
+
+.lastjob{
+    grid-area: lastjob;
+}
+
+.mystudies{
+    grid-area: mystudies;
+}
+
+.myskills{
+    grid-area: myskills;
 }
