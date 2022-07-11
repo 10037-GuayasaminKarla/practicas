@@ -31,7 +31,6 @@ html{
 
 .image{
     grid-area: image;
-    border-radius: 50%;
 }
 
 .myprofile{
