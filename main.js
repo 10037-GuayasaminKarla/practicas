@@ -12,7 +12,7 @@ function verificarContraseñas() {
  
         document.getElementById("error").classList.remove("mostrar");
         document.getElementById("ok").classList.remove("ocultar");
-        document.getElementById("login").disabled = true;
+        document.getElementById("login").disabled = false;
         
         return true;
     }
